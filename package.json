@@ -1,0 +1,14 @@
+{
+  "name": "local-github-forge",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Dependency-free Git smart HTTP, REST, GraphQL and MCP forge",
+  "engines": { "node": ">=22.18" },
+  "scripts": {
+    "start": "node main.ts",
+    "test": "node --test test/*.test.ts tests/*.test.ts",
+    "test:kit": "node scripts/kit-local.ts"
+  }
+}

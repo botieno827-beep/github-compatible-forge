@@ -1,0 +1,7 @@
+﻿github-core-clone-01-kit/
+github-core-clone-01-kit.tar.gz
+node_modules/
+dist/
+.local/
+build/
+*.log
